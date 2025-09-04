@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Spartan:wght@400;500;600;700&display=swap" rel="stylesheet">
+     -->
+    <!--=============== FlatIcon ===============-->
+
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+
+    <!--=============== Swiper CSS ===============-->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!--=============== CSS ===============-->
+
+    <link rel="stylesheet" href="assets/css/styles.css"/>
+
+    <title>Checkout</title>
+  </head>
+  
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+      <div class="header-top">
+        <div class="header-container container">
+          <div class="header-contact">
+            <span>(+09) -3467 - 9821 </span>
+
+            <span>Our location</span>
+          </div>
+
+          <p class="header-alert-news">
+            Super Value Deals - Save More With Coupons
+          </p>
+          <a href="login-register.html" class="header-top-action">
+            Log In / Sign Up
+          </a>
+        </div>
+      </div>
+      <nav class="nav container">
+        <a href="index.html" class="nav-log">
+          <img src="assets/Images/Logo/Oriental_Weavers_Logo1.png" alt="" class="nav-logo-img hight-lin0"/>
+        </a>
+        <div class="nav-menu" id="nav-menu">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="accounts.html" class="nav-link">My Account</a>
+            </li>
+            <li class="nav-item">
+              <a href="compare.html" class="nav-link">Compare</a>
+            </li>
+            <li class="nav-item">
+              <a href="login-register.html" class="nav-link">Registration</a>
+            </li>
+          </ul>
+          <div class="header-search">
+            <input type="text" placeholder="Search for items..." class="form-input hight-lin1"/>
+            <button class="search-btn">
+              <img src="assets/Images/Logo/Search.png" alt=""  class="hight-lin2"/>
+            </button>
+          </div>
+        </div>
+        <div class="header-user-actions">
+          <a href="favourite.html" class="header-action-btn">
+            <img src="assets/Images/Logo/Favourit1.png" alt="" class="hight-lin"> 
+            <span class="count">3</span>
+          </a>
+          
+          <a href="cart.html" class="header-action-btn">
+            <img src="assets/Images/Logo/Shooping card1.png" alt="" class="hight-lin"> 
+            <span class="count">3</span>
+          </a>
+        </div>
+      </nav> 
+    </header>
+
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== BREADCRUMB ===============-->
+      <section class="breadcrumb">
+        <ul class="breadcrumb-list flex container">
+          <li><a href="index.html" class="breadcrumb-link">Home</a></li>
+          <li><span class="breadcrumb-link">></span></li>
+         <li><span class="breadcrumb-link">Cart</span></li>
+          <li><span class="breadcrumb-link">></span></li> 
+          <li><span class="breadcrumb-link">Checkout</span></li>
+        </ul>
+      </section>
+      <!--=============== CHECKOUT ===============-->
+      <section class="checkout section-lg">
+        <div class="checkout-container container grid">
+          <div class="checkout-group">
+            <h3 class="section-title">Billing Details</h3>
+
+            <form action="" class="form grid">
+              <input type="text" placeholder="Name" class="form-input">
+              <input type="text" placeholder="Address" class="form-input">
+              <input type="text" placeholder="City" class="form-input">
+              <input type="text" placeholder="Country" class="form-input">
+              <input type="text" placeholder="PostCode" class="form-input">
+              <input type="text" placeholder="Phone" class="form-input">
+              <input type="email" placeholder="Email" class="form-input">
+              <h3 class="checkout-title">Additional Information</h3>
+              <textarea name="" placeholder="Order note" id="" cols="30" rows="10" class="form-input textarea"></textarea>
+            </form>
+          </div>
+          <div class="checkout-group">
+            <h3 class="section-title">Cart Totals</h3>
+            <table class="order-table">
+              <tr>
+                <th colspan="2">Products</th>
+                <th >Total</th> 
+              </tr>
+
+              <tr>
+                <td>
+                  <img src="assets/Images/Carpets/classic/2.png" alt="" class="order-img"/>
+                </td>
+                <td>
+                  <h3 class="table-title">AKANGY silk highlights lively colors</h3>
+                  <p class="table-quantity">X 2</p>
+                </td>
+                <td><span class="table-price">2800 L.E</span></td>
+              </tr>
+
+              <tr>
+                <td>
+                 <img src="assets/Images/Carpets/classic/4.png" alt="" class="order-img"/>
+                </td>
+                <td>
+                  <h3 class="table-title">DARIANNA silk highlights lively colors</h3>
+                  <p class="table-quantity">X 1</p>
+                </td>
+                <td><span class="table-price">2600 L.E</span></td>
+              </tr>
+              <tr>
+                <td>
+                 <img src="assets/Images/Carpets/Indoor&outdoor/6.png" alt="" class="order-img"/>
+                </td>
+                <td>
+                  <h3 class="table-title"> MAHARAJA silk highlights lively colors</h3>
+                  <p class="table-quantity">X 3</p>
+                </td>
+                <td><span class="table-price">3600 L.E</span></td>
+              </tr>
+              <tr>
+                <td><span class="order-subtitle">SubTotal</span></td>
+                <td colspan="2"><span class="table-price">9000 L.E</span></td>
+              </tr>
+              <tr>
+                <td><span class="order-subtitle">Shipping</span></td>
+                <td colspan="2"><span class="table-price">500 L.E</span></td>
+              </tr>
+              <tr>
+                <td><span class="order-subtitle">Total</span></td>
+                <td colspan="2"><span class="order-grand-total">9500 L.E</span></td>
+              </tr>
+            </table>
+            <div class="payment-methods">
+              <h3 class="checkout-title payment-title">Payment</h3>
+              <div class="payment-option flex">
+                <input type="radio" name="radio" checked class="payment-input">
+                <label for="" class="payment-label">Direct Bank Transfer</label>
+              </div>
+              <div class="payment-option flex">
+                <input type="radio" name="radio" class="payment-input">
+                <label for="" class="payment-label">Check Payment</label>
+              </div>
+              <div class="payment-option flex">
+                <input type="radio" name="radio"  class="payment-input">
+                <label for="" class="payment-label">Paypal</label>
+              </div>
+            </div>
+            <button class="btn flex btn-md">Place Order</button> 
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer container">
+      <div class="footer-container grid">
+        <div class="footer-content">
+          <a href="index.html" class="footer-logo">
+            <img src="assets/Images/Logo/Oriental_Weavers_Logo_Black.png" alt="" class="footer-log-img">
+          </a>
+          <h4 class="footer-subtitle">Contact</h4>
+          <p class="footer-description">
+            <span>Address:</span> 10Th Of Ramadan City, Ash Sharqiyah, Egypt.
+          </p>
+          <p class="footer-description">
+            <span>Phone:</span> +01 5555 365 /(+91) 01 2345 6789
+          </p>
+          <p class="footer-description">
+            <span>Hours:</span> 10:00 - 18:00, fri - Sat
+          </p>
+          <div class="footer-social">
+            <h4 class="footer-subtitle">Follow Me</h4>
+            <div class="footer-social-links flex">
+              <a href="">
+                <img src="assets/Images/Logo/icon-facebook.svg" alt="" class="footer-social-icon"> 
+              </a>
+              <a href="">
+                <img src="assets/Images/Logo/icon-twitter.svg" alt="" class="footer-social-icon"> 
+              </a>
+              <a href="">
+                <img src="assets/Images/Logo/icon-instagram.svg" alt="" class="footer-social-icon"> 
+              </a>
+              <a href="">
+                <img src="assets/Images/Logo/icon-youtube.svg" alt="" class="footer-social-icon"> 
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-content">
+          <h3 class="footer-title">Address</h3>
+         <ul class="footer-links">
+          <li><a href="" class="footer-link">About Us</a></li>
+          <li><a href="" class="footer-link">Delivery Information</a></li>
+          <li><a href="" class="footer-link">Privacy Policy</a></li>
+          <li><a href="" class="footer-link">Terms & Conditions</a></li>
+          <li><a href="" class="footer-link">Contact Us</a></li>
+          <li><a href="" class="footer-link">Support Center</a></li>
+         </ul>
+        </div>
+        <div class="footer-content">
+          <h3 class="footer-title">My Account</h3>
+         <ul class="footer-links">
+          <li><a href="" class="footer-link">Sign In</a></li>
+          <li><a href="" class="footer-link">View Cart</a></li>
+          <li><a href="" class="footer-link">My Favourit</a></li>
+          <li><a href="" class="footer-link">Track My Order</a></li>
+          <li><a href="" class="footer-link">Help</a></li>
+          <li><a href="" class="footer-link">Order</a></li>
+         </ul>
+        </div>
+        <div class="footer-content">
+          <h3 class="footer-title">Secured Payment Gateways</h3>
+          <img src="assets/Images/Logo/payment-method.png" alt="" class="payment-img">
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="copyright">&copy; 2023 MyTeam. All rights reserved</p>
+        <span class="designer">Designed by Best Team</span>
+      </div>
+    </footer>
+    <!--=============== Swiper JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--=============== Main JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
